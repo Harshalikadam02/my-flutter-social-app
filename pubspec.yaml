@@ -1,0 +1,16 @@
+name: my_flutter_social_app
+description: A full-stack Flutter app built from scratch by Harshali Kadam
+
+environment:
+  sdk: ">=3.7.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+  change_app_package_name: ^1.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  melos: ^6.3.3

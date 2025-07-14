@@ -1,0 +1,16 @@
+name: flutteram
+
+scripts:
+  pub-get:
+    exec: flutter pub get
+  flc:
+    exec: flutter clean && flutter pub get
+  
+  pub-upgrade:
+    exec: flutter pub upgrade --major-versions
+
+packages:
+  - client/
+  - client/packages/*
+  - server/
+  - server/packages/*
